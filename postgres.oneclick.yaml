@@ -99,7 +99,7 @@ metadata:
   labels:
     name: postgres
 spec:
-  type: NodePort
+  type: ClusterIP
   ports:
     - name: pgql
       port: 5432
